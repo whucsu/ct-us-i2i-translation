@@ -10,10 +10,18 @@ This is the project for unpaired i2i translation between CT and ultrasound image
 ### Abdominal Ultrasound dataset
 (https://www.kaggle.com/datasets/ignaciorlando/ussimandsegm)
 
+###
+This code takes colormap image as semantic mask label, please change 'n_classes' in base options to match your class number.
+Please store the images and masks in folders named as 'trainA', 'trainmaskA', 'trainB', 'trainmaskB', 'testA', 'test_maskA', 'testB' and 'testmaskB'
+
 ## Train
 ```bash
 python train.py --dataroot ./datasets/ctus --name ctus_cyclegan --model cycle_gan
 ```
-
+## Test
+```bash
+python test.py --dataroot ./datasets/ctus --name ctus_cyclegan --model cycle_gan
+```
+python train.py --dataroot ./datasets/ctus --name ctus_cyclegan --model cycle_gan
 <img src='docs/imgs/soon.png'>
 
