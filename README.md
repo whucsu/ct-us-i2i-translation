@@ -23,5 +23,4 @@ python train.py --dataroot ./datasets/ctus --name ctus_cyclegan --model cycle_ga
 python test.py --dataroot ./datasets/ctus --name ctus_cyclegan --model cycle_gan
 ```
 python train.py --dataroot ./datasets/ctus --name ctus_cyclegan --model cycle_gan
-<img src='docs/imgs/soon.png'>
 
