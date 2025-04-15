@@ -37,3 +37,5 @@ If you find this repository useful for your research, please cite our paper:
   pages={115-120},
   doi={10.1109/CBS61689.2024.10860598}
 }
+```
+[Read the paper here](https://ieeexplore.ieee.org/abstract/document/10860598)
